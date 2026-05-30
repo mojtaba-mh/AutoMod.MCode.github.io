@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" i>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AutoMod</title>
+        <link rel="stylesheet" href="../src/CSS/blog.css">
+
+    </head>
+    <body class="loading">
+        <div class="loader-wrapper">
+            <span class="loader-letter"><i>A</i></span>
+            <span class="loader-letter"><i>u</i></span>
+            <span class="loader-letter"><i>t</i></span>
+            <span class="loader-letter"><i>o</i></span>
+            <span class="loader-letter"><i>M</i></span>
+            <span class="loader-letter"><i>o</i></span>
+            <span class="loader-letter"><i>d</i></span>
+            <div class="loader"></div>
+        </div>
+        <header>
+            <section id="header-web">
+                <button class="btn-listNav" type="button"><img class="icon-list"
+                        src="../src/img/list.webp" alt> </button>
+                <nav class="items-link">
+                    <a href="../index.html" class="nav-link">صفحه اصلی</a>
+                    <a href="./shop.html" class="nav-link">فروشگاه</a>
+                    <a href="./cars.html" class="nav-link">آگهی خودرو</a>
+                    <a href="#hero-section" class="nav-link active">وبلاگ</a>
+                </nav>
+                <img class="img-header" src="../src/img/logo-AutoMod.webp" alt>
+                <div class="login" id="auth-section">
+                    <button id="register-btn" class="btn-login">
+                        <a href="./pages/login.html" class="link-login"
+                            id="link-login">ثبت نام / ورود</a>
+                    </button>
+                </div>
+                <div class="panel-user" id="user-icons" style="display: none;">
+                    <a href id="profile">
+                        <img src="../src/img/user.webp" alt
+                            class="icon-user">
+                    </a>
+                    <a href="./pages/cart-checkout.html" id="basket">
+                        <span class="number-product">4</span>
+                        <img src="../src/img/basket.webp" id="icon-basket">
+                    </a>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section id="hero-section">
+                <div class="search-wrapper">
+                    <div class="search-border-animated">
+                        <div class="search-inner">
+                            <input type="text" class="search-input"
+                                placeholder="جستجو">
+                            <button type="button"
+                                class="search-btn"><img
+                                    src="../src/img/search.svg"
+                                    alt="جستجو"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="blogs" class="blogs active" data-page="1">
+                <div class="items-blogs">
+                    <a class="blog" href="./blog-detail.html?id=1">
+                        <img
+                            src="../src/img/Lamborghini-Huracan_Performante_Spyder3.webp"
+                            alt class="img-blog">
+                        <h2 class="tilte-blog">لامبورگینی هوراکان پرفومانته اسپایدر</h2>
+                        <p class="description-blog">این خودرو بر پایه هوراکان
+                            پرفومانته ساخته شده اما با سقف نرم تاشدنی برقی که در
+                            17 ثانیه و تا سرعت 48 کیلومتر در ساعت بسته می شود.
+                            این رودستر ایتالیایی 35 کیلوگرمسبک تر از نسخه
+                            استندارد اسپایدر بوده و از قطعات کامپوزیتی فورج کاری
+                            سود میبرد. هوراکان پرفورمنته رودستر همانند مدل کوپه
+                            دارای پیشرانه 10 سیلندر 5.2 لیتری تنفس طبیعی است که
+                            قدرت 640 اسب بخار و گشتاوری 600 نیوتن متری دارد.
+                            پیشرانه این خودرو به یک گیربکس 7 سرعته دوکلاچه و
+                            سیستم چهار چرخ محرک متصل شده و شتاب صفر تا 100
+                            کیلومتر در ساعت 3.1 ثانیه ای و حداکثر سرعت 325
+                            کیلومتر در ساعت است.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./pages/blog-detail.html?id=2">
+                        <img src="../src/img/service.webp" alt class="img-blog">
+                        <h2 class="tilte-blog">نکات نگهداری و سرویس خودرو</h2>
+                        <p class="description-blog">نگهداری صحیح خودرو یکی از
+                            مهم ترین کارهایی است که میتواند از هزینه های سنگین
+                            تعمیرات جلوگیری کند و عمر مفید خودرو را افزایش دهد.
+                            بسیاری از مشکلات فنی زمانی ایجاد می شود که سرویس های
+                            دوره ای به موقع انجام می شوند که سرویس های دوره ای
+                            به موقع انجام نشده اند یا علائم اولیه ی خرابی نادیده
+                            گرفته شده اند. یکی از مهم ترین نکات ، بررسی منظم
+                            روغن موتور ، آب رادیاتور و سطح مایعات خودرو است. کم
+                            بودن هر کدام از این مارد می تواند باعث آسیب جدی به
+                            موتور یا سیستم خنک کننده شود.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./pages/blog-detail.html?id=3">
+                        <img src="../src/img/buying-guide.webp" alt
+                            class="img-blog">
+                        <h2 class="tilte-blog">راهنمای خرید</h2>
+                        <p class="description-blog">خرید قطعات خودرو همیشه یکی
+                            از مهم ترین بخش های نگهداری و تعمیر خودرو است.
+                            انتخاب درست یک قطعه می تواند روی عملکرد ، ایمنی و
+                            حتی عمر مفید خودرو تاثیر مستقیم بگذارد. به همین
+                            دلیل، قبل از خرید بهتر است چند نکته مهم را در نظر
+                            بگیرید تا هم از نظر کیفیت خیالتان راحت باشد و هم
+                            هزینه اضافی پرداخت نکنید.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./blog-detail.html?id=4">
+                        <img src="../src/img/ferrari.webp" alt class="img-blog">
+                        <h2 class="tilte-blog">فراری لافراری</h2>
+                        <p class="description-blog">فراری لافراری یکی ار خاص
+                            ترین خودور های تاریخ فراری است که با پیشرانه هیبریدی
+                            قدرتی نزدیک به 950 اسب بخار و طراحی خیره کننده ،
+                            استاندارد جدیدی در دنیای ابرخودرو ها تعذبف کرد. این
+                            مدل نماد اوج فناوری و سرعت و اصالت برند فراری
+                            است.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./pages/blog-detail.html?id=2">
+                        <img src="../src/img/service.webp" alt class="img-blog">
+                        <h2 class="tilte-blog">نکات نگهداری و سرویس خودرو</h2>
+                        <p class="description-blog">نگهداری صحیح خودرو یکی از
+                            مهم ترین کارهایی است که میتواند از هزینه های سنگین
+                            تعمیرات جلوگیری کند و عمر مفید خودرو را افزایش دهد.
+                            بسیاری از مشکلات فنی زمانی ایجاد می شود که سرویس های
+                            دوره ای به موقع انجام می شوند که سرویس های دوره ای
+                            به موقع انجام نشده اند یا علائم اولیه ی خرابی نادیده
+                            گرفته شده اند. یکی از مهم ترین نکات ، بررسی منظم
+                            روغن موتور ، آب رادیاتور و سطح مایعات خودرو است. کم
+                            بودن هر کدام از این مارد می تواند باعث آسیب جدی به
+                            موتور یا سیستم خنک کننده شود.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./pages/blog-detail.html?id=3">
+                        <img src="../src/img/buying-guide.webp" alt
+                            class="img-blog">
+                        <h2 class="tilte-blog">راهنمای خرید</h2>
+                        <p class="description-blog">خرید قطعات خودرو همیشه یکی
+                            از مهم ترین بخش های نگهداری و تعمیر خودرو است.
+                            انتخاب درست یک قطعه می تواند روی عملکرد ، ایمنی و
+                            حتی عمر مفید خودرو تاثیر مستقیم بگذارد. به همین
+                            دلیل، قبل از خرید بهتر است چند نکته مهم را در نظر
+                            بگیرید تا هم از نظر کیفیت خیالتان راحت باشد و هم
+                            هزینه اضافی پرداخت نکنید.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                </div>
+            </section>
+            <section id="blogs" class="blogs" data-page="2">
+                <div class="items-blogs">
+                    <a class="blog" href="./blog-detail.html?id=1">
+                        <img
+                            src="../src/img/Lamborghini-Huracan_Performante_Spyder3.webp"
+                            alt class="img-blog">
+                        <h2 class="tilte-blog">لامبورگینی هوراکان پرفومانته اسپایدر</h2>
+                        <p class="description-blog">این خودرو بر پایه هوراکان
+                            پرفومانته ساخته شده اما با سقف نرم تاشدنی برقی که در
+                            17 ثانیه و تا سرعت 48 کیلومتر در ساعت بسته می شود.
+                            این رودستر ایتالیایی 35 کیلوگرمسبک تر از نسخه
+                            استندارد اسپایدر بوده و از قطعات کامپوزیتی فورج کاری
+                            سود میبرد. هوراکان پرفورمنته رودستر همانند مدل کوپه
+                            دارای پیشرانه 10 سیلندر 5.2 لیتری تنفس طبیعی است که
+                            قدرت 640 اسب بخار و گشتاوری 600 نیوتن متری دارد.
+                            پیشرانه این خودرو به یک گیربکس 7 سرعته دوکلاچه و
+                            سیستم چهار چرخ محرک متصل شده و شتاب صفر تا 100
+                            کیلومتر در ساعت 3.1 ثانیه ای و حداکثر سرعت 325
+                            کیلومتر در ساعت است.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./pages/blog-detail.html?id=2">
+                        <img src="../src/img/service.webp" alt class="img-blog">
+                        <h2 class="tilte-blog">نکات نگهداری و سرویس خودرو</h2>
+                        <p class="description-blog">نگهداری صحیح خودرو یکی از
+                            مهم ترین کارهایی است که میتواند از هزینه های سنگین
+                            تعمیرات جلوگیری کند و عمر مفید خودرو را افزایش دهد.
+                            بسیاری از مشکلات فنی زمانی ایجاد می شود که سرویس های
+                            دوره ای به موقع انجام می شوند که سرویس های دوره ای
+                            به موقع انجام نشده اند یا علائم اولیه ی خرابی نادیده
+                            گرفته شده اند. یکی از مهم ترین نکات ، بررسی منظم
+                            روغن موتور ، آب رادیاتور و سطح مایعات خودرو است. کم
+                            بودن هر کدام از این مارد می تواند باعث آسیب جدی به
+                            موتور یا سیستم خنک کننده شود.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./pages/blog-detail.html?id=3">
+                        <img src="../src/img/buying-guide.webp" alt
+                            class="img-blog">
+                        <h2 class="tilte-blog">راهنمای خرید</h2>
+                        <p class="description-blog">خرید قطعات خودرو همیشه یکی
+                            از مهم ترین بخش های نگهداری و تعمیر خودرو است.
+                            انتخاب درست یک قطعه می تواند روی عملکرد ، ایمنی و
+                            حتی عمر مفید خودرو تاثیر مستقیم بگذارد. به همین
+                            دلیل، قبل از خرید بهتر است چند نکته مهم را در نظر
+                            بگیرید تا هم از نظر کیفیت خیالتان راحت باشد و هم
+                            هزینه اضافی پرداخت نکنید.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./blog-detail.html?id=4">
+                        <img src="../src/img/ferrari.webp" alt class="img-blog">
+                        <h2 class="tilte-blog">فراری لافراری</h2>
+                        <p class="description-blog">فراری لافراری یکی ار خاص
+                            ترین خودور های تاریخ فراری است که با پیشرانه هیبریدی
+                            قدرتی نزدیک به 950 اسب بخار و طراحی خیره کننده ،
+                            استاندارد جدیدی در دنیای ابرخودرو ها تعذبف کرد. این
+                            مدل نماد اوج فناوری و سرعت و اصالت برند فراری
+                            است.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./pages/blog-detail.html?id=3">
+                        <img src="../src/img/buying-guide.webp" alt
+                            class="img-blog">
+                        <h2 class="tilte-blog">راهنمای خرید</h2>
+                        <p class="description-blog">خرید قطعات خودرو همیشه یکی
+                            از مهم ترین بخش های نگهداری و تعمیر خودرو است.
+                            انتخاب درست یک قطعه می تواند روی عملکرد ، ایمنی و
+                            حتی عمر مفید خودرو تاثیر مستقیم بگذارد. به همین
+                            دلیل، قبل از خرید بهتر است چند نکته مهم را در نظر
+                            بگیرید تا هم از نظر کیفیت خیالتان راحت باشد و هم
+                            هزینه اضافی پرداخت نکنید.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./pages/blog-detail.html?id=2">
+                        <img src="../src/img/service.webp" alt class="img-blog">
+                        <h2 class="tilte-blog">نکات نگهداری و سرویس خودرو</h2>
+                        <p class="description-blog">نگهداری صحیح خودرو یکی از
+                            مهم ترین کارهایی است که میتواند از هزینه های سنگین
+                            تعمیرات جلوگیری کند و عمر مفید خودرو را افزایش دهد.
+                            بسیاری از مشکلات فنی زمانی ایجاد می شود که سرویس های
+                            دوره ای به موقع انجام می شوند که سرویس های دوره ای
+                            به موقع انجام نشده اند یا علائم اولیه ی خرابی نادیده
+                            گرفته شده اند. یکی از مهم ترین نکات ، بررسی منظم
+                            روغن موتور ، آب رادیاتور و سطح مایعات خودرو است. کم
+                            بودن هر کدام از این مارد می تواند باعث آسیب جدی به
+                            موتور یا سیستم خنک کننده شود.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                </div>
+            </section>
+            <section id="blogs" class="blogs" data-page="3">
+                <div class="items-blogs">
+                    <a class="blog" href="./blog-detail.html?id=1">
+                        <img
+                            src="../src/img/Lamborghini-Huracan_Performante_Spyder3.webp"
+                            alt class="img-blog">
+                        <h2 class="tilte-blog">لامبورگینی هوراکان پرفومانته اسپایدر</h2>
+                        <p class="description-blog">این خودرو بر پایه هوراکان
+                            پرفومانته ساخته شده اما با سقف نرم تاشدنی برقی که در
+                            17 ثانیه و تا سرعت 48 کیلومتر در ساعت بسته می شود.
+                            این رودستر ایتالیایی 35 کیلوگرمسبک تر از نسخه
+                            استندارد اسپایدر بوده و از قطعات کامپوزیتی فورج کاری
+                            سود میبرد. هوراکان پرفورمنته رودستر همانند مدل کوپه
+                            دارای پیشرانه 10 سیلندر 5.2 لیتری تنفس طبیعی است که
+                            قدرت 640 اسب بخار و گشتاوری 600 نیوتن متری دارد.
+                            پیشرانه این خودرو به یک گیربکس 7 سرعته دوکلاچه و
+                            سیستم چهار چرخ محرک متصل شده و شتاب صفر تا 100
+                            کیلومتر در ساعت 3.1 ثانیه ای و حداکثر سرعت 325
+                            کیلومتر در ساعت است.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./blog-detail.html?id=2">
+                        <img src="../src/img/service.webp" alt class="img-blog">
+                        <h2 class="tilte-blog">نکات نگهداری و سرویس خودرو</h2>
+                        <p class="description-blog">این خودرو بر پایه هوراکان
+                            پرفورمنته ساخته شده اما با سقف نرم تاشدنی برقی که در
+                            17 ثانیه و تا سرعت 48 کیلومتر در ساعت بسته می شود.
+                            این رودستر ایتالیایی 35 کیلوگرمسبک تر از نسخه
+                            استندارد اسپایدر بوده و از قطعات کامپوزیتی فورج کاری
+                            سود میبرد. هوراکان پرفورمنته رودستر همانند مدل کوپه
+                            دارای پیشرانه 10 سیلندر 5.2 لیتری تنفس طبیعی است که
+                            قدرت 640 اسب بخار و گشتاوری 600 نیوتن متری دارد.
+                            پیشرانه این خودرو به یک گیربکس 7 سرعته دوکلاچه و
+                            سیستم چهار چرخ محرک متصل شده و شتاب صفر تا 100
+                            کیلومتر در ساعت 3.1 ثانیه ای و حداکثر سرعت 325
+                            کیلومتر در ساعت است.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./blog-detail.html?id=3">
+                        <img src="../src/img/buying-guide.webp" alt
+                            class="img-blog">
+                        <h2 class="tilte-blog">راهنمای خرید</h2>
+                        <p class="description-blog">این خودرو بر پایه هوراکان
+                            پرفورمنته ساخته شده اما با سقف نرم تاشدنی برقی که در
+                            17 ثانیه و تا سرعت 48 کیلومتر در ساعت بسته می شود.
+                            این رودستر ایتالیایی 35 کیلوگرمسبک تر از نسخه
+                            استندارد اسپایدر بوده و از قطعات کامپوزیتی فورج کاری
+                            سود میبرد. هوراکان پرفورمنته رودستر همانند مدل کوپه
+                            دارای پیشرانه 10 سیلندر 5.2 لیتری تنفس طبیعی است که
+                            قدرت 640 اسب بخار و گشتاوری 600 نیوتن متری دارد.
+                            پیشرانه این خودرو به یک گیربکس 7 سرعته دوکلاچه و
+                            سیستم چهار چرخ محرک متصل شده و شتاب صفر تا 100
+                            کیلومتر در ساعت 3.1 ثانیه ای و حداکثر سرعت 325
+                            کیلومتر در ساعت است.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                </div>
+            </section>
+            <section id="pages">
+                <button type="button"
+                    class="next-page">&LeftAngleBracket;&LeftAngleBracket;</button>
+                <div class="link-item">
+                    <button class="link-page" data-page="1">1</button>
+                    <button class="link-page" data-page="2">2</button>
+                    <button class="link-page" data-page="3">3</button>
+                </div>
+                <button type="button"
+                    class="previous-page">&RightAngleBracket;&RightAngleBracket;</button>
+            </section>
+        </main>
+        <footer>
+            <div class="item-footer">
+                <div class="links-footer">
+                    <p class="title-footer">لینک ها</p>
+                    <nav class="items-linkFooter">
+                        <a href="../index.html"
+                            class="nav-linkFooter">صفحه اصلی</a>
+                        <a href="./shop.html"
+                            class="nav-linkFooter">فروشگاه</a>
+                        <a href="./cars.html" class="nav-linkFooter">آگهی
+                            خودرو</a>
+                        <a href="#hero-section"
+                            class="nav-linkFooter active">وبلاگ</a>
+                    </nav>
+                </div>
+                <div class="items-footer">
+                    <p class="title-footer">ارتباط با ما</p>
+                    <a href="mailto:support@automod.com"> ایمیل پشتیبانی :
+                        support@automod.com</a>
+                    <a href="tel:+"> شماره تماس : 0000-000-0900</a>
+                    <p>آدرس : ایران، خوزستان</p>
+                    <div class="social-media">
+                        <img src="../src/img/facebook.webp" alt
+                            class="social-meadia">
+                        <img src="../src/img/linkedin.webp" alt
+                            class="social-meadia">
+                        <img src="../src/img/youtube.webp" alt
+                            class="social-meadia">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-creator">
+                <p> ساخته شده توسط <i>MCode</i></p>
+                <p>&copy; تمامی حقوق این سایت محفوظ است.</p>
+            </div>
+        </footer>
+        <script src="../src/JS/blog.JS"></script>
+        <script src="../src/JS/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AutoMod</title>
+        <link rel="stylesheet" href="../src/CSS/booking.css">
+    </head>
+    <body class="loading">
+        <div class="loader-wrapper">
+            <span class="loader-letter"><i>A</i></span>
+            <span class="loader-letter"><i>u</i></span>
+            <span class="loader-letter"><i>t</i></span>
+            <span class="loader-letter"><i>o</i></span>
+            <span class="loader-letter"><i>M</i></span>
+            <span class="loader-letter"><i>o</i></span>
+            <span class="loader-letter"><i>d</i></span>
+            <div class="loader"></div>
+        </div>
+        <main>
+            <section id="items-booking">
+                <img src="../src/img/logo-AutoMod.webp" alt="AutoMod" class="logo">
+            <h2 class="title-booking">رزرو نوبت سرویس خودرو</h2>
+            <div class="service">
+                <p>نوع سرویس خودرو خود را وارد کنید:</p>
+                <input type="radio" name="service" id="service1" value="online" checked>
+                <label for>سرویس دوره ای</label>
+                <input type="radio" name="service" id="service2" value="cod">
+                <label for>خدمات نرم افزاری</label>
+                <p>تاریخ مد نظر را وارد کنید:</p>
+                <input type="date" name="date" id="date">
+            </div>
+            
+            <div>
+                <label for="">
+                    ساعات موجود
+                    <select name="serviceMethod" required>
+                        <option value="time1">دوشنبه 28 اردیبهشت ساعت 10</option>
+                        <option value="time2">دوشنبه 28 اردیبهشت ساعت 11</option>
+                        <option value="time3">دوشنبه 28 اردیبهشت ساعت 12</option>
+                    </select>
+                </label> 
+            </div>
+            
+            <button type="submit" class="btn-time"><a href="../index.html">تایید</a></button>
+            </section>
+        </main>
+        <script src="../src/JS/script.js"></script>
+    </body>
+</html>
