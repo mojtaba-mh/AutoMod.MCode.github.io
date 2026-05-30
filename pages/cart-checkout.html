@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AutoMod</title>
+        <link rel="stylesheet" href="../src/CSS/cart-checkout.css">
+    </head>
+    <body>
+        <section id="product" class="">
+            <div class="title">
+                <img src="../src/img/basket.webp" alt>
+                <p class="title-products">سبد خرید</p>
+            </div>
+            <div class="products-cart" >
+                <div class="product-cart">
+                    <img src="../src/img/brake-pad-black.webp" alt
+                        class="img-product">
+                    <div class="items-cart">
+                        <div class="title-cart">
+                            <h2 class="name-products">لنت ترمز</h2>
+                        </div>
+                        <div class="item">
+                            <div class="price-cart">
+                                <p class="sale-price">565,000 تومان</p>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button">+</button>
+                                <p class="number">3</p>
+                                <button class="btn-delete" type="button">
+                                    <img src="../src/img/basket_delete.webp" alt
+                                        class="icon-basket">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cart">
+                    <img src="../src/img/spark-plug.webp" alt
+                        class="img-product">
+                    <div class="items-cart">
+                        <div class="title-cart">
+                            <h2 class="name-products">لنت ترمز</h2>
+                        </div>
+                        <div class="item">
+                            <div class="price-cart">
+                                <p class="sale-price">565,000 تومان</p>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button">+</button>
+                                <p class="number">8</p>
+                                <button class="btn-delete" type="button">
+                                    <img src="../src/img/basket_delete.webp" alt
+                                        class="icon-basket">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cart">
+                    <img src="../src/img/tire2.webp" alt class="img-product">
+                    <div class="items-cart">
+                        <div class="title-cart">
+                            <h2 class="name-products">لنت ترمز</h2>
+                        </div>
+                        <div class="item">
+                            <div class="price-cart">
+                                <p class="sale-price">565,000 تومان</p>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button">+</button>
+                                <p class="number">4</p>
+                                <button class="btn-delete" type="button">
+                                    <img src="../src/img/basket_delete.webp" alt
+                                        class="icon-basket">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cart">
+                    <img src="../src/img/batrey.webp" alt class="img-product">
+                    <div class="items-cart">
+                        <div class="title-cart">
+                            <h2 class="name-products">لنت ترمز</h2>
+                        </div>
+                        <div class="item">
+                            <div class="price-cart">
+                                <p class="sale-price">565,000 تومان</p>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button">+</button>
+                                <p class="number">1</p>
+                                <button class="btn-delete" type="button">
+                                    <img src="../src/img/basket_delete.webp" alt
+                                        class="icon-basket">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="sum-price">
+                <p>جمع کل :</p>
+                <p>9,040,000</p>
+            </div>
+            <button type="button" class="link-checkoutForm">تسویه حساب</button>
+        </section>
+        <section id="checkout">
+            <div class="title-checkout">
+                <p>تسویه حساب</p>
+                <button type="button" class="close-registration">بستن</button>
+            </div>
+            <form id="checkout-form" novalidate>
+                <div class="item-form">
+                    <div class="input">
+                        <input type="text" name="fullname" id="fullname"
+                            required
+                            minlength="3" placeholder=" "
+                            autocomplete="username">
+                        <label for="fullname" id="label-fullname">
+                            نام و نام خانوادگی
+                        </label>
+                    </div>
+                    <div class="input">
+                        <input type="tel" name="phone" id="phone" required
+                            placeholder="0900..." autocomplete="tel" minlength="11" maxlength="11">
+                        <label for="phone" id="label-phone">
+                            شماره موبایل
+                        </label>
+                    </div>
+                    <div class="input">
+                        <textarea name="address" required minlength="10"
+                            id="address" rows="3" placeholder=" "
+                            autocomplete="address-line1"></textarea>
+                        <label for="address" id="label-address">
+                            آدرس
+                        </label>
+                    </div>
+                    <div class="input">
+                        <input type="text" name="postalCode" id="postalCode"
+                            inputmode="numeric"
+                            required placeholder=" " autocomplete="postal-code">
+                        <label for="postalCode" id="label-postalCode">
+                            کد پستی
+                        </label>
+                    </div>
+                </div>
+                <label >
+                    روش ارسال
+                    <select name="shippingMethod" required>
+                        <option value="pickup">تحویل حضوری</option>
+                        <option value="fast">ارسال فوری</option>
+                        <option value="standard">ارسال با پست</option>
+                    </select>
+                </label>
+                <fieldset class="payment">
+                    <legend>روش پرداخت</legend>
+                    <label for>
+                        <input type="radio" name="paymentMethod"
+                            id="paymentMethod1"
+                            value="online" checked>
+                        پرداخت آنلاین
+                    </label>
+                    <label for>
+                        <input type="radio" name="paymentMethod"
+                            id="paymentMethod2" value="cod">
+                        پرداخت درب منزل
+                    </label>
+                </fieldset>
+                <button type="submit" class="oder-registration">ثبت
+                    سفارش</button>
+                <p id="checkout-message"></p>
+            </form>
+        </section>
+        <script src="../src/JS/cart.checkout.js"></script>
+    </body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AutoMod</title>
+        <link rel="stylesheet" href="../src/CSS/product-detail.css">
+    </head>
+    <body class="loading">
+        <div class="loader-wrapper">
+            <span class="loader-letter"><i>A</i></span>
+            <span class="loader-letter"><i>u</i></span>
+            <span class="loader-letter"><i>t</i></span>
+            <span class="loader-letter"><i>o</i></span>
+            <span class="loader-letter"><i>M</i></span>
+            <span class="loader-letter"><i>o</i></span>
+            <span class="loader-letter"><i>d</i></span>
+            <div class="loader"></div>
+        </div>
+        <header>
+            <section id="header-web">
+                <button class="btn-listNav" type="button"><img class="icon-list"
+                        src="../src/img/list.webp" alt> </button>
+                <nav class="items-link">
+                    <a href="../index.html" class="nav-link">صفحه اصلی</a>
+                    <a href="./shop.html" class="nav-link">فروشگاه</a>
+                    <a href="./cars.html" class="nav-link">آگهی خودرو</a>
+                    <a href="./blog.html" class="nav-link">وبلاگ</a>
+                </nav>
+                <img class="img-header" src="../src/img/logo-AutoMod.webp" alt>
+                <div class="login" id="auth-section">
+                    <button id="register-btn" class="btn-login">
+                        <a href="./pages/login.html" class="link-login"
+                            id="link-login">ثبت نام / ورود</a>
+                    </button>
+                </div>
+                <div class="panel-user" id="user-icons" style="display: none;">
+                        <a href id="profile">
+                            <img src="../src/img/user.webp" alt
+                                class="icon-user">
+                        </a>
+                        <a href="./cart-checkout.html" id="basket">
+                            <span class="number-product">4</span>
+                            <img src="../src/img/basket.webp" id="icon-basket">
+                        </a>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section class="imgs-product">
+                <button type="button" id="next">&LeftAngleBracket;</button>
+                <img id="image" class="imgTitle-product" loading="lazy">
+                <img src alt class="imgTitle-product" id="image2" loading="lazy">
+                <img src alt class="imgTitle-product" id="image3">
+                <img src alt class="imgTitle-product" id="image4">
+                <button type="button" id="previous">&RightAngleBracket;</button>
+            </section>
+            <section>
+                <div class="title-product">
+                    <h2 id="nameProduct" class="name-product"></h2>
+                    <p id="offProduct" class="off-product"></p>
+                </div>
+                <div class="iteam-shopping">
+                    <div>
+                        <p class="regular-price" id="regularPrice"></p>
+                        <p class="sale-price" id="salePrice"></p>
+                    </div>
+                    <div class="btn-cart">
+                        <button class="btn-add" type="button"><img
+                                src="../src/img/shopping_cart.webp" alt
+                                class="icon-basket">افزودن به سبد
+                            خرید</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <p class="specifications">مشخصات</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="td1"><p class="title-about"
+                                    id="manuFacturerCompany"></p></td>
+                            <td><p class="about" id="nameCompany"></p></td>
+                        </tr>
+                        <tr>
+                            <td class="td1"><p class="title-about" id>نوع
+                                    محصول</p></td>
+                            <td><p class="about" id="productType"></p></td>
+                        </tr>
+                        <tr>
+                            <td class="td1"><p
+                                    class="title-about"
+                                    id="numberOfProduct"></p></td>
+                            <td><p class="about" id="number"></p></td>
+                        </tr>
+                        <tr>
+                            <td class="td1"><p class="title-about"
+                                    id="suitableForCars"></p></td>
+                            <td><p class="about"
+                                    id="nameSuitableForCar"></p></td>
+                        </tr>
+                        <tr>
+                            <td class="td1"><p class="title-about"
+                                    id="locationOfThePiece"></p></td>
+                            <td><p class="about" id="location"></p></td>
+                        </tr>
+                        <tr>
+                            <td class="td1"><p
+                                    class="title-about" id>توضیحات</p></td>
+                            <td><p class="about" id="description"></p></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <p class="related-title">محصولات مرتبط</p>
+                <div class="related-product">
+                    <div class="product-cart " data-id="1">
+                        <img src="../src/img/brake-pad-blue.webp" alt
+                            class="img-product">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-products">لنت ترمز</h2>
+                                <p class="product-rating">4.6 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="../src/img/shopping_cart.webp" alt
+                                        class="icon-basket">افزودن به سبد
+                                    خرید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-cart " data-id="2">
+                        <img src="../src/img/brake-pad-black.webp" alt
+                            class="img-product">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-products">لنت ترمز</h2>
+                                <p class="product-rating">4.6 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular opacityNone">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="../src/img/shopping_cart.webp" alt
+                                        class="icon-basket">افزودن به سبد
+                                    خرید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-cart " data-id="3">
+                        <img src="../src/img/control-arm.webp" alt
+                            class="img-product">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-products">لنت ترمز</h2>
+                                <p class="product-rating">4.6 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="../src/img/shopping_cart.webp" alt
+                                        class="icon-basket">افزودن به سبد
+                                    خرید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-cart " data-id="4">
+                        <img src="../src/img/air-filter.webp" alt
+                            class="img-product">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-products">لنت ترمز</h2>
+                                <p class="product-rating">4.6 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="../src/img/shopping_cart.webp" alt
+                                        class="icon-basket">افزودن به سبد
+                                    خرید</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-cart" data-id="5">
+                        <img src="../src/img/brake-rotor.webp" alt
+                            class="img-product">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-products">لنت ترمز</h2>
+                                <p class="product-rating">4.6 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="../src/img/shopping_cart.webp" alt
+                                        class="icon-basket">افزودن به سبد
+                                    خرید</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btns">
+                    <button id="nextBtn" type="button">&LeftAngleBracket;&LeftAngleBracket;</button>
+                    <button id="prevBtn" type="button">&RightAngleBracket;&RightAngleBracket;</button>
+                </div>
+            </section>
+            <section>
+                <div class="title-opinions">
+                    <p class="related-title">نظرات</p>
+                    <p class="rating">4.6 &starf;</p>
+                </div>
+                <div class="opinions">
+                    <div class="opinion">
+                        <div class="user">
+                            <img src="../src/img/user1.png" alt class="img-user">
+                            <p class="name-user">علیرضا</p>
+                        </div>
+                        <p class="description">از این محصول راضی هستم و خیلی
+                            خوبه</p>
+                    </div>
+                    <div class="opinion">
+                        <div class="user">
+                            <img src="../src/img/user2.png" alt class="img-user">
+                            <p class="name-user">محسن</p>
+                        </div>
+                        <p class="description">واقعا عالیه و خیلی خوب داره کار
+                            میکنه</p>
+                    </div>
+                    <div class="opinion ">
+                        <div class="user">
+                            <img src="../src/img/user3.png" alt class="img-user">
+                            <p class="name-user">مجتبی</p>
+                        </div>
+                        <p class="description"></p>
+                    </div>
+                    <div class="opinion ">
+                        <div class="user">
+                            <img src="../src/img/user4.png" alt class="img-user">
+                            <p class="name-user">محمد</p>
+                        </div>
+                        <p class="description"></p>
+                    </div>
+                </div>
+                <section class="input-opinion">
+                    <p class="related-title">نظر دهید</p>
+                    <div>
+                        <textarea name="opinion" id="textarea-description"
+                            cols="23"
+                            rows="7" placeholder="توضیحات"></textarea>
+                        <label for="textarea-description"
+                            class="label-opinion disn">توضیحات</label>
+                    </div>
+                    <button type="submit" class="btn-opinion">ثبت نظر</button>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <div class="item-footer">
+                <div class="links-footer">
+                    <p class="title-footer">لینک ها</p>
+                    <nav class="items-linkFooter">
+                        <a href="../index.html"
+                            class="nav-linkFooter">صفحه اصلی</a>
+                        <a href="./shop.html"
+                            class="nav-linkFooter">فروشگاه</a>
+                        <a href="./cars.html" class="nav-linkFooter">آگهی
+                            خودرو</a>
+                        <a href="./blog.html"
+                            class="nav-linkFooter">وبلاگ</a>
+                    </nav>
+                </div>
+                <div class="items-footer">
+                    <p class="title-footer">ارتباط با ما</p>
+                    <a href="mailto:support@automod.com"> ایمیل پشتیبانی :
+                        support@automod.com</a>
+                    <a href="tel:+"> شماره تماس : 0000-000-0900</a>
+                    <p>آدرس : ایران، خوزستان</p>
+                    <div class="social-media">
+                        <img src="../src/img/facebook.webp" alt
+                            class="social-meadia">
+                        <img src="../src/img/linkedin.webp" alt
+                            class="social-meadia">
+                        <img src="../src/img/youtube.webp" alt
+                            class="social-meadia">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-creator">
+                <p> ساخته شده توسط <i>MCode</i></p>
+                <p>&copy; تمامی حقوق این سایت محفوظ است.</p>
+            </div>
+        </footer>
+        <script src="../src/JS/productDetail.JS"></script>
+        <script src="../src/JS/script.js"></script>
+    </body>
+</html>
