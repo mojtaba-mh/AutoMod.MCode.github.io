@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AutoMod</title>
+        <link rel="stylesheet" href="./src/CSS/style.css">
+        <link rel="icon" href="./src/img/logo-AutoMod.webp">
+    </head>
+    <body class="loading">
+        <div class="loader-wrapper">
+            <span class="loader-letter"><i>A</i></span>
+            <span class="loader-letter"><i>u</i></span>
+            <span class="loader-letter"><i>t</i></span>
+            <span class="loader-letter"><i>o</i></span>
+            <span class="loader-letter"><i>M</i></span>
+            <span class="loader-letter"><i>o</i></span>
+            <span class="loader-letter"><i>d</i></span>
+            <div class="loader"></div>
+        </div>
+        <header>
+            <section id="header-web">
+                <div>
+                    <button class="btn-listNav" type="button"><img
+                            class="icon-list"
+                            src="./src/img/list.webp" alt> </button>
+                    <nav class="items-link">
+                        <a href="#hero-section" class="nav-link active">صفحه
+                            اصلی</a>
+                        <a href="./pages/shop.html" class="nav-link">فروشگاه</a>
+                        <a href="./pages/cars.html" class="nav-link">آگهی
+                            خودرو</a>
+                        <a href="#about" class="nav-link">درباره ما </a>
+                    </nav>
+                </div>
+                <div class="logo">
+                    <img class="img-header" src="./src/img/logo-AutoMod.webp"
+                        alt>
+                </div>
+                <div class="login" id="auth-section">
+                    <button id="register-btn" class="btn-login">
+                        <a href="./pages/login.html" class="link-login"
+                            id="link-login">ثبت نام / ورود</a>
+                    </button>
+                </div>
+                <div class="panel-user" id="user-icons" style="display: none;">
+                    <a href id="profile">
+                        <img src="./src/img/user.webp" alt
+                            class="icon-user">
+                    </a>
+                    <a href="./pages/cart-checkout.html" id="basket">
+                        <span class="number-product">4</span>
+                        <img src="./src/img/basket.webp" id="icon-basket">
+                    </a>
+                </div>
+            </section>
+        </header>
+        <main>
+            <section id="hero-section">
+                <h1 class="title-hero"><i>AutoMod</i></h1>
+                <p class="text-heroSection">جدیدترین قطعات، بهترین خدمات و
+                    خودروهای آماده تحویل را با ما تجربه کنید</p>
+            </section>
+            <section id="category-section">
+                <div class="search-wrapper">
+                    <div class="search-border-animated">
+                        <div class="search-inner">
+                            <input type="text" class="search-input"
+                                placeholder="جستجو">
+                            <button type="button"
+                                class="search-btn"><img
+                                    src="./src/img/search.svg"
+                                    alt="جستجو"></button>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="title-category">دسته بندی</h2>
+                <hr>
+                <div class="carts">
+                    <a class="cart-category background-serviseParts"
+                        href="./pages/shop.html">
+                        <h2 class="name-cart">قطعات خودرو</h2>
+                        <img class="img-cart"
+                            src="./src/img/service-parts.webp" />
+                    </a>
+                    <a class="cart-category backgrund-car"
+                        href="./pages/cars.html">
+                        <h2 class="name-cart">آگهی خودرو</h2>
+                    </a>
+                    <a class="cart-category background-servise"
+                        href="./pages/booking.html">
+                        <h2 class="name-cart">رزرو نوبت</h2>
+                        <img src alt>
+                    </a>
+                    <a class="cart-category backgrund-blog"
+                        href="./pages/blog.html">
+                        <h2 class="name-cart">وبلاگ</h2>
+                        <img src alt>
+                    </a>
+                </div>
+            </section>
+            <section id="product">
+                <h2 class="title-products">محصولات پر فروش</h2>
+                <hr>
+                <div class="products-cart">
+                    <a class="product-cart" href="./pages/product-detail.html">
+                        <img src="./src/img/brake-pad-black.webp" alt
+                            class="img-product">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-products">لنت ترمز</h2>
+                                <p class="product-rating">4.6 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="./src/img/shopping_cart.webp" alt
+                                        class="icon-basket">افزودن به سبد
+                                    خرید</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-cart"
+                        href="./pages/product-detail.html?id=2">
+                        <img src="./src/img/spark-plug.webp" alt
+                            class="img-product">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-products">شمع</h2>
+                                <p class="product-rating">4.6 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="./src/img/shopping_cart.webp" alt
+                                        class="icon-basket">افزودن به سبد
+                                    خرید</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-cart"
+                        href="./pages/product-detail.html?id=10">
+                        <img src="./src/img/control-arm.webp" alt
+                            class="img-product">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-products">بازوی کنترل</h2>
+                                <p class="product-rating">4.6 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="./src/img/shopping_cart.webp" alt
+                                        class="icon-basket">افزودن به سبد
+                                    خرید</button>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="product-cart"
+                        href="./pages/product-detail.html?id=7">
+                        <img src="./src/img/brake-rotor.webp" alt
+                            class="img-product">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-products"> دیسک ترمز</h2>
+                                <p class="product-rating">4.6 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="./src/img/shopping_cart.webp" alt
+                                        class="icon-basket">افزودن به سبد
+                                    خرید</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section id="car">
+                <h2 class="title-cars">آخرین خودرو های اضافه شده</h2>
+                <hr>
+                <div class="cars-cart">
+                    <a class="car-cart">
+                        <img src="./src/img/ferrari2.webp" alt class="img-car">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-cars">فراری</h2>
+                                <p class="car-rating">5.0 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="./src/img/info-circle.svg" alt
+                                        class="icon-basket">دیدن مشخصات
+                                    خودرو</button>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="car-cart">
+                        <div class="imgs-car">
+                            <img src="./src/img/porsche.webp" alt
+                                class="img-car">
+                        </div>
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-cars">پورشه</h2>
+                                <p class="car-rating">4.0 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="./src/img/info-circle.svg" alt
+                                        class="icon-basket">دیدن مشخصات
+                                    خودرو</button>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="car-cart" href="./pages/car-datail.html">
+                        <img src="./src/img/lamborghini.webp" alt
+                            class="img-car">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-cars">لامبورگینی</h2>
+                                <p class="car-rating">5.0 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="./src/img/info-circle.svg" alt
+                                        class="icon-basket">دیدن مشخصات
+                                    خودرو</button>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="car-cart">
+                        <img src="./src/img/BMW-M4.webp" alt class="img-car">
+                        <div class="items-cart">
+                            <div class="title-cart">
+                                <h2 class="name-cars">BMW M4</h2>
+                                <p class="car-rating">4.0 &starf;</p>
+                            </div>
+                            <div class="price-cart">
+                                <p class="sale-price">546,000 تومان</p>
+                                <div class="item-regular">
+                                    <p class="regular-price">650,000 تومان</p>
+                                    <p class="off">16%</p>
+                                </div>
+                            </div>
+                            <div class="btn-cart">
+                                <button class="btn-add" type="button"><img
+                                        src="./src/img/info-circle.svg" alt
+                                        class="icon-basket">دیدن مشخصات
+                                    خودرو</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="blogs">
+                <h2 class="title-products">بلاگ</h2>
+                <hr>
+                <div class="items-blogs">
+                    <a class="blog" href="./pages/blog-detail.html?id=2">
+                        <img src="./src/img/service.webp" alt class="img-blog">
+                        <h2 class="tilte-blog">نکات نگهداری و سرویس خودرو</h2>
+                        <p class="description-blog">نگهداری صحیح خودرو یکی از
+                            مهم ترین کارهایی است که میتواند از هزینه های سنگین
+                            تعمیرات جلوگیری کند و عمر مفید خودرو را افزایش دهد.
+                            بسیاری از مشکلات فنی زمانی ایجاد می شود که سرویس های
+                            دوره ای به موقع انجام می شوند که سرویس های دوره ای
+                            به موقع انجام نشده اند یا علائم اولیه ی خرابی نادیده
+                            گرفته شده اند. یکی از مهم ترین نکات ، بررسی منظم
+                            روغن موتور ، آب رادیاتور و سطح مایعات خودرو است. کم
+                            بودن هر کدام از این مارد می تواند باعث آسیب جدی به
+                            موتور یا سیستم خنک کننده شود.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                    <a class="blog" href="./pages/blog-detail.html?id=3">
+                        <img src="./src/img/buying-guide.webp" alt
+                            class="img-blog">
+                        <h2 class="tilte-blog">راهنمای خرید</h2>
+                        <p class="description-blog">خرید قطعات خودرو همیشه یکی
+                            از مهم ترین بخش های نگهداری و تعمیر خودرو است.
+                            انتخاب درست یک قطعه می تواند روی عملکرد ، ایمنی و
+                            حتی عمر مفید خودرو تاثیر مستقیم بگذارد. به همین
+                            دلیل، قبل از خرید بهتر است چند نکته مهم را در نظر
+                            بگیرید تا هم از نظر کیفیت خیالتان راحت باشد و هم
+                            هزینه اضافی پرداخت نکنید.</p>
+                        <button type="button" class="btn-blog">مشاهده</button>
+                    </a>
+                </div>
+            </section>
+            <section id="about">
+                <img src="./src/img/logo-AutoMod.webp" alt
+                    class="imgLogo-about">
+                <h3 class="title-about">درباره <i>AutoMod</i></h3>
+                <p class="descriptionTitle-about"><i>AutoMod</i> با هدف ساده
+                    سازی خرید قطعات و خدمات خودرو تأسیس شده است. ما تلاش می کنیم
+                    تجربه ای سریع ، مطمئن و آسان را برای رانندگان فراهم کنیم تا
+                    بدون دردسر، به بهترین محصولات و خدمات فنی دسترسی داشته
+                    باشند.</p>
+                <div class="items-about">
+                    <div class="item-about">
+                        <img src alt class="icon-about">
+                        <p class="description-about">ارسال فوری و امن با بسته
+                            بندی اصولی</p>
+                    </div>
+                    <div class="item-about">
+                        <img src alt class="icon-about">
+                        <p class="description-about">پشتیبانی تخصصی برای انتخاب
+                            قطعه مناسب</p>
+                    </div>
+                    <div class="item-about">
+                        <img src alt class="icon-about">
+                        <p class="description-about">ضمانت کیفیت</p>
+                    </div>
+                    <div class="item-about">
+                        <img src alt class="icon-about">
+                        <p class="description-about">تضمین اصالت کالا</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="item-footer">
+                <div class="links-footer">
+                    <p class="title-footer">لینک ها</p>
+                    <nav class="items-linkFooter">
+                        <a href="#hero-section"
+                            class="nav-linkFooter active">صفحه اصلی</a>
+                        <a href="./pages/shop.html"
+                            class="nav-linkFooter">فروشگاه</a>
+                        <a href="./pages/cars.html" class="nav-linkFooter">آگهی
+                            خودرو</a>
+                        <a href="./pages/blog.html"
+                            class="nav-linkFooter">وبلاگ</a>
+                    </nav>
+                </div>
+                <div class="items-footer">
+                    <p class="title-footer">ارتباط با ما</p>
+                    <a href="mailto:support@automod.com"> ایمیل پشتیبانی :
+                        support@automod.com</a>
+                    <a href="tel:+"> شماره تماس : 0000-000-0900</a>
+                    <p>آدرس : ایران، خوزستان</p>
+                    <div class="social-media">
+                        <img src="./src/img/facebook.webp" alt
+                            class="social-meadia">
+                        <img src="./src/img/linkedin.webp" alt
+                            class="social-meadia">
+                        <img src="./src/img/youtube.webp" alt
+                            class="social-meadia">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-creator">
+                <p> ساخته شده توسط <i>MCode</i></p>
+                <p>&copy; تمامی حقوق این سایت محفوظ است.</p>
+            </div>
+        </footer>
+        <script src="./src/JS/script.js"></script>
+    </body>
+</html>
